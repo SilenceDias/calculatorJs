@@ -4,42 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calcContainer">
-        <div class="display">23132</div>
+        <div class="display"></div>
 
         <div class="buttonsContainer">
             <div class="row">
-                <button value="C" class="topButton">C</button>
-                <button value="" class="topButton">&</button>
-                <button value="" class="topButton">&</button>
-                <button value="/" class="rightButton">/</button>
+                <button value="C" id="clear" class="calcButtons top">C</button>
+                <button value="/" class="calcButtons right">/</button>
             </div>
             <div class="row">
-                <button value="7" class="mainButton">7</button>
-                <button value="8" class="mainButton">8</button>
-                <button value="9" class="mainButton">9</button>
-                <button value="*" class="rightButton">*</button>
+                <button value="7" class="calcButtons main">7</button>
+                <button value="8" class="calcButtons main">8</button>
+                <button value="9" class="calcButtons main">9</button>
+                <button value="X" class="calcButtons right">X</button>
             </div>
             <div class="row">
-                <button value="4" class="mainButton">4</button>
-                <button value="5" class="mainButton">5</button>
-                <button value="6" class="mainButton">6</button>
-                <button value="-" class="rightButton">-</button>
+                <button value="4" class="calcButtons main">4</button>
+                <button value="5" class="calcButtons main">5</button>
+                <button value="6" class="calcButtons main">6</button>
+                <button value="-" class="calcButtons right">-</button>
             </div>
             <div class="row">
-                <button value="1" class="mainButton">1</button>
-                <button value="2" class="mainButton">2</button>
-                <button value="3" class="mainButton">3</button>
-                <button value="+" class="rightButton">+</button>
+                <button value="1" class="calcButtons main">1</button>
+                <button value="2" class="calcButtons main">2</button>
+                <button value="3" class="calcButtons main">3</button>
+                <button value="+" class="calcButtons right">+</button>
             </div>
             <div class="row">
-                <button value="0" class="zeroButton">0</button>
-                <button value="." class="mainButton">.</button>
-                <button value="=" class="rightButton">=</button>
+                <button value="0" class="calcButtons zero">0</button>
+                <button value="." class="calcButtons main">.</button>
+                <button value="=" class="calcButtons right">=</button>
             </div>
             
         </div>
